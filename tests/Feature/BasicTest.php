@@ -40,7 +40,5 @@ class BasicTest extends TestCase
         $this->assertContains('toy', $results);
         $this->assertContains('torch', $results);
         $this->assertContains('tissue', $results);
-        // Empty array if passed even
-        $this->assertEmpty($box->startsWith('s'));
     }
 }
